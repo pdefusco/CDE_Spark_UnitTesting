@@ -1,4 +1,4 @@
-# CDE Spark Unit Tests
+# Spark Unit Testing in CDE
 
 ### Objective
 
@@ -81,9 +81,7 @@ cde job run --name my_unit_tests
 
 ##### 5. Monitor outputs in the CDE Job Runs page.
 
-Navigage to the Job Runs page in your CDE Virtual Cluster. Open the "stdout" logs and validate unit test outputs:
-
-
+Navigate to the Job Runs page in your CDE Virtual Cluster. Open the "stdout" logs and validate unit test outputs.
 
 ### Summary
 
@@ -95,6 +93,10 @@ In this example we have run two simple PySpark Unit Tests in CDE. Here are the k
 
 ### References
 
-[Spark XML Package](https://github.com/databricks/spark-xml)
-
 [Cloudera Data Engineering Documentation](https://docs.cloudera.com/data-engineering/cloud/index.html)
+
+[Creating and Managing CDE Jobs](https://docs.cloudera.com/data-engineering/cloud/manage-jobs/topics/cde-create-job.html)
+
+[Using CDE Resources](https://docs.cloudera.com/data-engineering/cloud/use-resources/topics/cde-python-virtual-env.html)
+
+[Python unittest framework](https://docs.python.org/3/library/unittest.html)
